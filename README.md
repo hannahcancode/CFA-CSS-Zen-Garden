@@ -2,7 +2,7 @@
 
 [CSS Zen Garden](http://www.csszengarden.com/) is a project that aims to demonstrate what can be achieved using CSS for visual design.
 
-This depository holds a css stylesheet that I have created to display the default CSS Zen Garden html, without modifying the html itself.
+This repository holds a css stylesheet that I have created to display the default CSS Zen Garden html, without modifying the html itself.
 
 ![Example image](screenshot.png)
 
