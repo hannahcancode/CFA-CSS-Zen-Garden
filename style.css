@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Slab|Khula');
+
+body {
+  margin: 0px 0px 0px 0px;
+  text-align: justify;
+  font-size: 12pt;
+  font-family: Khula, sans-serif;
+}
+
+p {
+  padding:10px 30%;
+  margin: 0px;
+  color: #392f72;
+}
+
+a {
+  color: #392f72;
+
+}
+a:hover {
+  color: white;
+  background-color: #392f72;
+  text-decoration: none
+}
+
+.intro:after{
+  background: url('images/image2.jpg');
+}
+
+.participation:after{
+  background: url('images/image3.jpg');
+}
+
+.requirements:after{
+  background: url('images/image4.jpg');
+}
+
+.sidebar:after{
+  background: url('images/image2.jpg');
+}
+
+.intro:after, .participation:after, .requirements:after, .sidebar:after{
+  content: "";
+  height:100%;
+  width: 100%;
+  position: absolute;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index:-1;
+}
+
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 90px;
+  font-weight: lighter;
+  background: none;
+  background: url('images/image1.jpg');
+  color: white;
+  text-shadow: 6px 6px 6px black;
+  text-align: center;
+  margin:0px;
+  padding-top: 300px;
+  padding-bottom: 20%;
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.summary, h2 {
+  color: #392f72;
+  text-align: center;
+  margin:0px;
+  background-color: rgba(197, 192, 224, 1);
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+.main, .supporting {
+  width: 100%;
+  margin-top: 500px;
+}
+
+.explanation, .participation, .benefits, .requirements, footer, .preamble {
+  padding: 0px;
+  background-color: rgba(197, 192, 224, 1);
+  padding-bottom: 10px
+}
+
+.wrapper:after {
+  padding-top: 20px;
+  content: "Designed by @hannahcancode";
+  width: 100%;
+  color: #392f72;
+  display: inline-block;
+  width: 33%
+
+}
+
+.zen-resources {
+  float: left;
+  width: 33%
+}
+
+.design-archives {
+  float: right;
+  width: 33%
+}
+
+.design-selection {
+  display: inline-block;
+  width: 33%
+}
+
+.sidebar{
+  width: 100%;
+  margin-top:450px;
+  background-color: rgba(197, 192, 224, 1);
+}
+
+.benefits{
+  width: 100%;
+  margin-top:500px;
+  background-color: rgba(197, 192, 224, 1);
+}
+
+footer {
+  width: 100%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align:center
+}
+
+h2, h3 {
+    font-family: 'Josefin Slab', serif;
+}
+
+h2 {
+  font-size: 25pt
+}
+
+h3 {
+  text-align:center;
+  padding:10px 10px;
+  margin: 0px;
+  background-color: rgba(197, 192, 224, 1);
+  color: #392f72;
+  font-size: 20pt;
+  padding-top: 20px;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  padding-left: 0px
+}
