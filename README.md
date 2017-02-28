@@ -10,6 +10,7 @@ This design features:
 
 * a strong heading
 * fixed background images that alternate as you scroll down the page, emphasising the movement between sections
-* fonts imported live from Google fonts
+
+Fonts used are Fredericka the Great, Josefin Slab and Khula from [Google Fonts](https://fonts.google.com/).
 
 Images have all been released into the Public Domain by their original creators, and were obtained from [Pixabay](https://pixabay.com/).
